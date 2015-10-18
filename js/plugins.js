@@ -1,6 +1,7 @@
 // Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;
+
     var noop = function () {};
     var methods = [
         'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',

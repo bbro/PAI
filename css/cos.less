@@ -1,0 +1,30 @@
+@red: #FF0000;
+@w: 14px;
+@cos: 20pt;
+div{
+  color: @red;
+  width: @w*2+1em-10%+@cos;
+}
+
+header {
+  color: #FF0000;
+  nav {
+    color: #FF0000;
+    ul {
+      color: #FF0000;
+      li {
+        color: #FF0000;
+      }
+    }
+  }
+}
+
+a{
+  color:@red;
+  &:hover{
+    color:black;
+  }
+  &.green{
+    color:green;
+  }
+}
